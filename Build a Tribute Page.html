@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Web Design Projects - Build a Tribute Page</title>
+</head>
+<style type="text/css">
+  html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+     font-size: 11px;
+   }
+
+   body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.0;
+    text-align: center;
+    background: #3d3852;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    margin-bottom: 3px;
+  }
+
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1;
+    }
+  }
+
+  a {
+    color: #dfdfde;
+  }
+
+  a:visited {
+    color: #477ca7;
+  }
+
+  #main {
+    margin: 5px 0px;
+    padding: 5px;
+    color: #fbbc61;
+    background: #3d3852;
+  }
+
+  @media (max-width: 460px) {
+    #main {
+      margin: 3px;
+    }
+  }
+
+  img {
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    background: #3d3852;
+  }
+
+  #img-div {
+    background: #3d3852;
+    padding: 0px 5px 0 5px;
+    margin: 0px;
+  }
+
+  #img-caption {
+    margin: 15px 0 25px 0;
+  }
+
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+
+  #headline {
+    margin: 10px 10; 
+  }
+
+  #tribute-info {
+    max-width: 85%;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    text-align: justify;
+    line-height: 1.6;
+    color: #3d3852;
+    background: #dfdfde;
+  }
+
+  ul {
+    max-width: 95%;
+    margin: 0 auto 50px auto;
+    text-align: justify;
+    line-height: 1.6;
+  }
+
+  li {
+    margin: 16px 0;
+  }
+
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+  }
+</style>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+  <main id="main">
+    <h1 id="title">Ratu Boko Palace</h1>
+    <p>Majestic Palace Historical</p>
+    <figure id="img-div">
+      <img
+      id="image"
+      src="https://live.staticflickr.com/821/27738648658_72aeb3d790_c.jpg"
+      alt="The gate of Ratu Boko compound"
+      />
+      <figcaption id="img-caption">
+        The front gate and walls of the largest terrace, viewed from the front.
+      </figcaption>
+    </figure>
+    <section id="tribute-info">
+      <p id="headline">Ratu Boko Palace is an archaeological site in Java. Ratu Boko is located on a plateau, about three kilometres south of Lara Jonggrang Prambanan temple complex in Yogyakarta, Indonesia. The original name of this site is still unclear, however the local inhabitants named this site after King Boko, the legendary king mentioned in Loro Jonggrang folklore. In Javanese, Ratu Baka means “Stork King”. 
+      </p>
+      <h3>These archaeological sites are:</h3>
+      <ul>
+        <li>
+          <strong>Main Gate</strong> - The first of three terraces is reached through a massive gateway built on two levels. On the western edge of this terrace is a high talud of soft white limestone. The second terrace, separated from the first by andesite wall, is reached through a gateway in paduraksa form consisting of three doors, a larger central one flanked by two of lesser dimensions. The third terrace, the largest, contains the richest concentrations of archaeological remains. Another talud and andesite wall separate the third terrace from the second terrace, with another connecting gateway of paduraksa form, this time consisting of five doors, again the central one having larger dimensions than the two which flank it.</li>
+          <li>
+            <strong>Candi Batu Putih</strong> - Literally, Batu Putih means white stone. It is a structure made from white limestone on the north side of the first row of the gate on second terrace.
+          </li>
+          <li>
+            <strong>Candi Pembakaran</strong> - Beyond the second row of gates on third terrace, on the north side of the plateau there's a structure similar to the base part of the temple with two terraces about 26x26 m in size. On the center of upper terrace is an empty descending square hole. The building probably functions as crematorium to burn the corpses.
+          </li>
+          <li>
+            <strong>Paseban</strong> -On the plateau on the third terrace, beside the Candi Pembakaran, there are also several square stone structures. On the structures there are some umpak or stones which serve as the base for wooden columns with holes to support the pillars. These structures are highly suggested as the base of the building, since the pillars, wall, and roof are made from organic material, only the stone floor and base still remain.
+          </li>
+          <li>
+            <strong>Pendopo</strong> - On the second terrace on the southeast side of the plateau, lies the pendopo (audience hall). The pendopo is a square stone enclosure surrounded with andesite stone wall with the small paduraksa entrance gates in the north, west, and south sides. In the center of this walled enclosure there's a stone base formed by two separated terraces, the terrace on the southern side is smaller than the northern one. This terrace served as the base and floor of the wooden structure since there are some umpak or stones which serve as the base for wooden columns with holes, to support the pillars. Since the pillars, walls, and the roof were made from easily decaying material, such as wood, sirap (wooden shingles roof) or ijuk, none of it survived. Only the stone bases still remain, while the organic wooden material of the building is gone.
+          </li>
+          <li>
+            <strong>Miniature Temples</strong> - On the south side on the pendopo, there are three miniature temples with a square stone basin in front of it. This small temple probably served a religious purpose, as some kind of Hindu or Buddhist shrine in the Ratu Boko complex.
+          </li>
+          <li>
+            <strong>Kaputren and Bathing Place</strong> - On the eastern side of pendopo on the lower terrace, there are several andesite stone walled enclosures with paduraksa gates and a gallery leading to the several pools within. This structure is associated by local folks as kaputren (women's quarter), since the pool is believed to be the pleasure garden for king and his concubines.
+            One particular pool (or well) within the bath place is considered sacred by Hindu people called 'Amerta Mantana'. It is believed that the water of Amerta brings luck for anyone who uses it. Hindu people use it in Tawur Agung ceremony, one day before the Nyepi day, to support the achievement of self purify and to return the earth into her initial harmony.
+            To the east of the pool there are two stone base structures, yet again probably the remains of a wooden building, of which only the stone base still remains. From this structure, overlooking a valley on the east side of Ratu Boko compounds, visitors can see Candi Barong, a Hindu temple complex across the valley on the slope of the hill in the east.
+
+          </li>
+          <li>
+            <strong>Ascetic Cave</strong> - At the northern part from pendopo, isolated from the rest of the site, lies two caves that were formed of sediment stones. The upper cave is called Gua Lanang (Male Cave) and the lower cave is called Gua Wadon (Female Cave). In front of Gua Lanang, there is a pond and three effigies. Based on the research, the effigy is known as Aksobya, one of Buddha Pantheons. The cave probably functioned as a meditation place.
+          </li>
+        </ul>
+      </section>
+      <h3>
+        If you have time, you should read more about this historical building
+        on
+        <a
+        id="tribute-link"
+        href="https://en.wikipedia.org/wiki/Ratu_Boko"
+        target="_blank"
+        >Wikipedia entry</a
+        >.
+      </h3>
+    </main>
+  </body>
+  </html>
